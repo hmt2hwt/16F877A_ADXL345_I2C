@@ -28,7 +28,7 @@ void main(void)
 {
     uint8_t uptr[16]={0}, uptr_cnt=0, dt=0, eol=13, spc=32;
     uint16_t led_counter=0;
-    int32_t accX=0, accY=0, accZ=0;
+    int16_t accX=0, accY=0, accZ=0;
     
     GPIO_init();
     USART_init();
