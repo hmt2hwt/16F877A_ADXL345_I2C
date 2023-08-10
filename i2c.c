@@ -62,10 +62,8 @@ void I2C_nack(void)
 }
 
 void I2C_write(uint8_t dat)
-{
-    uint8_t ack=0;
-    
-	SSPBUF=dat;
+{ 
+    SSPBUF=dat;
     while(SSPSTATbits.BF);        
     I2C_wait_idle();
 }
