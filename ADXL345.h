@@ -1,11 +1,11 @@
 /************************************************************************
-*	Program : i2c.h                                                       *
+*	Program : ADXL345.h                                                   *
 *	Version : 0.510                                                       *
 *	Author	: hmt2hwt                                                      *
 *	Date	: 10.09.2017                                                     *
 * Modified: 21.08.2019                                                  *
 *	Function:                                                             *
-*   CKP=1  CKE=0                                                        *
+*   CKP=1  CKE=0   for SPI                                              *
 ************************************************************************/
 
 #include <xc.h>
@@ -22,6 +22,7 @@
 // ADXL345 ID
 #define ADXL345_ID              0xE5
 
+//for SPI
 #define ADXL345_WRITE_SINGLE    0x00
 #define ADXL345_WRITE_MULTIPLE  0x40
 #define ADXL345_READ_SINGLE     0x80
