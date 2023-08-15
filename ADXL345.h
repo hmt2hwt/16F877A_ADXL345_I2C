@@ -7,12 +7,11 @@
 *	Function:                                                             *
 *   CKP=1  CKE=0   for SPI                                              *
 ************************************************************************/
+#ifndef ADXL345_H
+#define	ADXL345_H
 
 #include <xc.h>
 #include "i2c.h"
-
-#ifndef ADXL345_H
-#define	ADXL345_H
  
 //I2C ADDRESS                           //0x1D   3A write 3B read  (SDA=ADDR 1)
 #define ADXL345_I2C_ADR         0x53    //0x53   A6 write A7 read  (SDA=ADDR 0)
