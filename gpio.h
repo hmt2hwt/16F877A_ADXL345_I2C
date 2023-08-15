@@ -1,9 +1,9 @@
 /************************************************************************
-*	Program : gpio.h													*
-*	Version : 0.500														*
-*	Author	: hmt2hwt						                            *
-*	Date	: 10.09.2012												*
-*	Function: GPIO_init()                                               *
+*	Program : gpio.h													                            *
+*	Version : 0.500														                            *
+*	Author	: hmt2hwt						                                          *
+*	Date	: 10.09.2012												                            *
+*	Function: GPIO_init()                                                 *
 ************************************************************************/
 
 #ifndef GPIO_H
