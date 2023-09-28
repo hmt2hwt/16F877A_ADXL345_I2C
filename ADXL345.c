@@ -32,7 +32,7 @@ uint8_t ADXL345_read(uint8_t adxl345_reg)
 }
 ///*****************************************************************************
 
-void ADXL345_read_axis(int16_t *x_axis, int16_t *y_axis, int16_t *z_axis)
+void ADXL345_read_axis_LSB(int16_t *x_axis, int16_t *y_axis, int16_t *z_axis)
 {
     uint8_t val[6]={0};
     
