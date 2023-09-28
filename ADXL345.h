@@ -63,7 +63,7 @@
 void ADXL345_init(void);
 void ADXL345_write(uint8_t adxl345_reg, uint8_t data);
 uint8_t ADXL345_read(uint8_t adxl345_reg);
-void ADXL345_read_axis(int16_t *x_asis, int16_t *y_axis, int16_t *z_axis);
+void ADXL345_read_axis_LSB(int16_t *x_asis, int16_t *y_axis, int16_t *z_axis);
 
 #endif	/* ADXL345_H */
 
