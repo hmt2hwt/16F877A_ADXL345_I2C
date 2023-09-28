@@ -54,7 +54,7 @@ void main(void)
     {   
         //USART_decode_code();
         
-        ADXL345_read_axis(&accX, &accY, &accZ);
+        ADXL345_read_axis_LSB(&accX, &accY, &accZ);
             
         uptr_cnt=iToStr(accX,uptr,5);
         USART_write(uptr,uptr_cnt);
