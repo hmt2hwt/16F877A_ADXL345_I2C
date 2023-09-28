@@ -6,7 +6,7 @@
 ************************************************************************/
 #pragma warning push
 #pragma warning disable 520     //function xxx is never called
-#pragma warning disable 1498    //
+#pragma warning disable 1498    //pointer (xxx@yyy) in expression may have no targets
                                 
 #include <xc.h>
 #include <stdint.h>
